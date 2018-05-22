@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>∫eEditor</title>
+	<script type="text/javascript">window.z=(x,...o)=>(console.log(x,...o,),x)</script>
+	<!-- <script type="text/javascript" src="https://assets.mallkd.com/script-editor/script-editor.js"></script> -->
+	<script type="module" src="/src/seeditor.js"></script>
+</head>
+<body>
+<se-editor>
+selection: {
+	main: {
+		if( editable ) {
+			edit();
+		} else {
+			throw 'not editable';
+		}
+	}
+}
+</se-editor>
+</body>
+</html>

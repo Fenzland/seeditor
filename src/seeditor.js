@@ -1,0 +1,1 @@
+import './wc/editor.js';
